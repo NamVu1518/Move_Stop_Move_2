@@ -1,0 +1,799 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a7be096f684a1545a7a54ba1af629ca, type: 3}
+  m_Name: DataUI
+  m_EditorClassIdentifier: 
+  listMaterialWeaponData:
+  - {fileID: 2100000, guid: 899e3b13cd06a4b40a0dcd16bae98590, type: 2}
+  - {fileID: 2100000, guid: 3ac336fda02635f469d6af33e76751d5, type: 2}
+  - {fileID: 2100000, guid: 2aa2f19be284c7c459e58c511017e0bf, type: 2}
+  - {fileID: 2100000, guid: e537ba4b63d33c04e9c7567d715b0df3, type: 2}
+  - {fileID: 2100000, guid: 6d873dfe2da5e3748a62da1d1025ae3d, type: 2}
+  - {fileID: 2100000, guid: 740449b5c7b3efd4ba925132c5b74972, type: 2}
+  - {fileID: 2100000, guid: 4cbfb64da69ee274197810b61637f1ae, type: 2}
+  - {fileID: 2100000, guid: 94f11c6ab032f024db977581c97c9096, type: 2}
+  - {fileID: 2100000, guid: 5c35d2dce70acd54d9e4564c0a3815e7, type: 2}
+  - {fileID: 2100000, guid: 8420c32494397cf459d3a6b60c71f82d, type: 2}
+  - {fileID: 2100000, guid: 1bbf9ca9a1ca7c542ac324310280c540, type: 2}
+  - {fileID: 2100000, guid: 69155e7f98ac79a4a9a1b2212986d2e8, type: 2}
+  - {fileID: 2100000, guid: 71f0c9ba7971ad34192c0559ebaac1ab, type: 2}
+  - {fileID: 2100000, guid: 9f9b4211d57909d458623452895c17f7, type: 2}
+  - {fileID: 2100000, guid: 1297fcd14b7ba0341995b89d16355693, type: 2}
+  - {fileID: 2100000, guid: 43188aff86db71446b3772549428ae1d, type: 2}
+  - {fileID: 2100000, guid: 8a87ba84e50681d448879838085179a2, type: 2}
+  - {fileID: 2100000, guid: ae779381b2f4d2143b89cd51ef3fba9d, type: 2}
+  - {fileID: 2100000, guid: 69bbc3f4584453c40902900e540a4abe, type: 2}
+  - {fileID: 2100000, guid: c87c0d93eae10044e8f5deb795c44ec9, type: 2}
+  - {fileID: 2100000, guid: 5f7ed325455e71f4189476347994c7c1, type: 2}
+  - {fileID: 2100000, guid: f133fff042316c045aa1e30a88a9e08b, type: 2}
+  - {fileID: 2100000, guid: 4a0a4442616b1824dade71f316b94843, type: 2}
+  listMaterialSkinData:
+  - {fileID: 2100000, guid: 899e3b13cd06a4b40a0dcd16bae98590, type: 2}
+  - {fileID: 2100000, guid: 3ac336fda02635f469d6af33e76751d5, type: 2}
+  - {fileID: 2100000, guid: 2aa2f19be284c7c459e58c511017e0bf, type: 2}
+  - {fileID: 2100000, guid: e537ba4b63d33c04e9c7567d715b0df3, type: 2}
+  - {fileID: 2100000, guid: 6d873dfe2da5e3748a62da1d1025ae3d, type: 2}
+  - {fileID: 2100000, guid: 740449b5c7b3efd4ba925132c5b74972, type: 2}
+  - {fileID: 2100000, guid: 4cbfb64da69ee274197810b61637f1ae, type: 2}
+  - {fileID: 2100000, guid: 94f11c6ab032f024db977581c97c9096, type: 2}
+  - {fileID: 2100000, guid: 5c35d2dce70acd54d9e4564c0a3815e7, type: 2}
+  - {fileID: 2100000, guid: 8420c32494397cf459d3a6b60c71f82d, type: 2}
+  - {fileID: 2100000, guid: 1bbf9ca9a1ca7c542ac324310280c540, type: 2}
+  - {fileID: 2100000, guid: 69155e7f98ac79a4a9a1b2212986d2e8, type: 2}
+  - {fileID: 2100000, guid: 71f0c9ba7971ad34192c0559ebaac1ab, type: 2}
+  - {fileID: 2100000, guid: 9f9b4211d57909d458623452895c17f7, type: 2}
+  - {fileID: 2100000, guid: 1297fcd14b7ba0341995b89d16355693, type: 2}
+  - {fileID: 2100000, guid: 43188aff86db71446b3772549428ae1d, type: 2}
+  - {fileID: 2100000, guid: 8a87ba84e50681d448879838085179a2, type: 2}
+  - {fileID: 2100000, guid: ae779381b2f4d2143b89cd51ef3fba9d, type: 2}
+  - {fileID: 2100000, guid: 69bbc3f4584453c40902900e540a4abe, type: 2}
+  - {fileID: 2100000, guid: c87c0d93eae10044e8f5deb795c44ec9, type: 2}
+  - {fileID: 2100000, guid: 5f7ed325455e71f4189476347994c7c1, type: 2}
+  - {fileID: 2100000, guid: f133fff042316c045aa1e30a88a9e08b, type: 2}
+  - {fileID: 2100000, guid: 4a0a4442616b1824dade71f316b94843, type: 2}
+  listMaterialPantData:
+  - {fileID: 2100000, guid: 899e3b13cd06a4b40a0dcd16bae98590, type: 2}
+  - {fileID: 2100000, guid: 3ac336fda02635f469d6af33e76751d5, type: 2}
+  - {fileID: 2100000, guid: 2aa2f19be284c7c459e58c511017e0bf, type: 2}
+  - {fileID: 2100000, guid: e537ba4b63d33c04e9c7567d715b0df3, type: 2}
+  - {fileID: 2100000, guid: 6d873dfe2da5e3748a62da1d1025ae3d, type: 2}
+  - {fileID: 2100000, guid: 740449b5c7b3efd4ba925132c5b74972, type: 2}
+  - {fileID: 2100000, guid: 4cbfb64da69ee274197810b61637f1ae, type: 2}
+  - {fileID: 2100000, guid: 94f11c6ab032f024db977581c97c9096, type: 2}
+  - {fileID: 2100000, guid: 5c35d2dce70acd54d9e4564c0a3815e7, type: 2}
+  - {fileID: 2100000, guid: 8420c32494397cf459d3a6b60c71f82d, type: 2}
+  - {fileID: 2100000, guid: 1bbf9ca9a1ca7c542ac324310280c540, type: 2}
+  - {fileID: 2100000, guid: 69155e7f98ac79a4a9a1b2212986d2e8, type: 2}
+  - {fileID: 2100000, guid: 71f0c9ba7971ad34192c0559ebaac1ab, type: 2}
+  - {fileID: 2100000, guid: 9f9b4211d57909d458623452895c17f7, type: 2}
+  - {fileID: 2100000, guid: 1297fcd14b7ba0341995b89d16355693, type: 2}
+  - {fileID: 2100000, guid: 43188aff86db71446b3772549428ae1d, type: 2}
+  - {fileID: 2100000, guid: 8a87ba84e50681d448879838085179a2, type: 2}
+  - {fileID: 2100000, guid: ae779381b2f4d2143b89cd51ef3fba9d, type: 2}
+  - {fileID: 2100000, guid: 69bbc3f4584453c40902900e540a4abe, type: 2}
+  - {fileID: 2100000, guid: c87c0d93eae10044e8f5deb795c44ec9, type: 2}
+  - {fileID: 2100000, guid: 5f7ed325455e71f4189476347994c7c1, type: 2}
+  - {fileID: 2100000, guid: f133fff042316c045aa1e30a88a9e08b, type: 2}
+  - {fileID: 2100000, guid: 4a0a4442616b1824dade71f316b94843, type: 2}
+  - {fileID: 2100000, guid: 07c886d52481e1e43bf806807f73af9d, type: 2}
+  - {fileID: 2100000, guid: d0567cd4e1b911a4a979133f4bc6a220, type: 2}
+  - {fileID: 2100000, guid: bdd64e847711eea47b184348f09654c7, type: 2}
+  - {fileID: 2100000, guid: f54c13ff9cdbe864ebf0b5aa19bb9413, type: 2}
+  - {fileID: 2100000, guid: e85ed358145e20b42ab82a321cb5f862, type: 2}
+  - {fileID: 2100000, guid: f7c2d5dd7c8441b47ac8d3421b26d5ce, type: 2}
+  - {fileID: 2100000, guid: 2699e9490b800d14da49bd09a171276e, type: 2}
+  - {fileID: 2100000, guid: c06600ca503b60e45b8980f2cd527a60, type: 2}
+  - {fileID: 2100000, guid: e71541babe053df46a5f80b9a07751c8, type: 2}
+  listShopPageInfo:
+  - nameWeapon: Arrow
+    cameraTexture: {fileID: 821226385638715013, guid: dc4316f9094d3844687e46a3fb77cb19, type: 3}
+    coin: 0
+    slotMater: 3
+  - nameWeapon: Axe_0
+    cameraTexture: {fileID: 9151417673603769333, guid: 6df884eaca972f04bb06b1770f64c78b, type: 3}
+    coin: 1000
+    slotMater: 2
+  - nameWeapon: Axe_1
+    cameraTexture: {fileID: 1778527203913650193, guid: 2254af9684a191a4796b876482691bb6, type: 3}
+    coin: 2000
+    slotMater: 3
+  - nameWeapon: Boomerang
+    cameraTexture: {fileID: 7200759196730236535, guid: ede4f5838de3cb94ca425c75b36bbae6, type: 3}
+    coin: 3000
+    slotMater: 1
+  - nameWeapon: Candy_0
+    cameraTexture: {fileID: 6642962407433082890, guid: a9e3462a2d8661c43b08a21c11fb921d, type: 3}
+    coin: 4000
+    slotMater: 3
+  - nameWeapon: Candy_1
+    cameraTexture: {fileID: 3283115085954068562, guid: 878fc916332864c458936cff89b9f017, type: 3}
+    coin: 5000
+    slotMater: 2
+  - nameWeapon: Candy_2
+    cameraTexture: {fileID: 3906259336734818540, guid: 99b9701c7665e894f9844b14612c71d0, type: 3}
+    coin: 6000
+    slotMater: 3
+  - nameWeapon: Candy_4
+    cameraTexture: {fileID: 8715878589567239551, guid: ffa58e30f0690c64b9293598a0622698, type: 3}
+    coin: 7000
+    slotMater: 3
+  - nameWeapon: Hammer
+    cameraTexture: {fileID: 7373483864787430189, guid: 40da1313c7a32f941ae6b274a85f9331, type: 3}
+    coin: 8000
+    slotMater: 2
+  - nameWeapon: Knife
+    cameraTexture: {fileID: 7683948999618329985, guid: 22bb134ce8db2ff4ab88556511d8b046, type: 3}
+    coin: 9000
+    slotMater: 2
+  - nameWeapon: Uzi
+    cameraTexture: {fileID: 5323445165521075137, guid: 7ab308e767c453f409be761b915700cf, type: 3}
+    coin: 10000
+    slotMater: 2
+  - nameWeapon: Z
+    cameraTexture: {fileID: 2582153571487041480, guid: 9f835f248f6865c47a8109b0f688028f, type: 3}
+    coin: 11000
+    slotMater: 2
+  dataDynamic:
+    arrWeaponOwners:
+    - _name: Arrow
+      enumBulletsData: 1
+      ownerShip: 0
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 3
+          enumOwnerShip: 0
+        - enumMaterial: 16
+          enumOwnerShip: 2
+        - enumMaterial: 1
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 16
+          enumOwnerShip: 0
+        - enumMaterial: 18
+          enumOwnerShip: 2
+        - enumMaterial: 4
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 6
+          enumOwnerShip: 0
+        - enumMaterial: 21
+          enumOwnerShip: 2
+        - enumMaterial: 5
+          enumOwnerShip: 2
+    - _name: Axe_0
+      enumBulletsData: 2
+      ownerShip: 2
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 4
+          enumOwnerShip: 0
+        - enumMaterial: 19
+          enumOwnerShip: 2
+        - enumMaterial: 17
+          enumOwnerShip: 2
+        - enumMaterial: 20
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 19
+          enumOwnerShip: 0
+        - enumMaterial: 12
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 0
+          enumOwnerShip: 2
+    - _name: Axe_1
+      enumBulletsData: 3
+      ownerShip: 2
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 22
+          enumOwnerShip: 0
+        - enumMaterial: 1
+          enumOwnerShip: 2
+        - enumMaterial: 12
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 11
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 22
+          enumOwnerShip: 0
+        - enumMaterial: 1
+          enumOwnerShip: 2
+        - enumMaterial: 12
+          enumOwnerShip: 2
+        - enumMaterial: 4
+          enumOwnerShip: 2
+        - enumMaterial: 16
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 20
+          enumOwnerShip: 0
+        - enumMaterial: 4
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+        - enumMaterial: 22
+          enumOwnerShip: 2
+        - enumMaterial: 3
+          enumOwnerShip: 2
+    - _name: Boomerang
+      enumBulletsData: 4
+      ownerShip: 2
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 16
+          enumOwnerShip: 0
+        - enumMaterial: 8
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 17
+          enumOwnerShip: 2
+        - enumMaterial: 11
+          enumOwnerShip: 2
+        - enumMaterial: 12
+          enumOwnerShip: 2
+    - _name: Candy_0
+      enumBulletsData: 5
+      ownerShip: 2
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 14
+          enumOwnerShip: 0
+        - enumMaterial: 0
+          enumOwnerShip: 2
+        - enumMaterial: 4
+          enumOwnerShip: 2
+        - enumMaterial: 21
+          enumOwnerShip: 2
+        - enumMaterial: 18
+          enumOwnerShip: 2
+        - enumMaterial: 12
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 20
+          enumOwnerShip: 0
+        - enumMaterial: 19
+          enumOwnerShip: 2
+        - enumMaterial: 1
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+        - enumMaterial: 8
+          enumOwnerShip: 2
+        - enumMaterial: 5
+          enumOwnerShip: 2
+        - enumMaterial: 3
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 15
+          enumOwnerShip: 0
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 8
+          enumOwnerShip: 2
+        - enumMaterial: 18
+          enumOwnerShip: 2
+        - enumMaterial: 2
+          enumOwnerShip: 2
+        - enumMaterial: 11
+          enumOwnerShip: 2
+        - enumMaterial: 16
+          enumOwnerShip: 2
+    - _name: Candy_1
+      enumBulletsData: 6
+      ownerShip: 2
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 18
+          enumOwnerShip: 0
+        - enumMaterial: 16
+          enumOwnerShip: 2
+        - enumMaterial: 7
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+        - enumMaterial: 19
+          enumOwnerShip: 2
+        - enumMaterial: 22
+          enumOwnerShip: 2
+        - enumMaterial: 13
+          enumOwnerShip: 2
+        - enumMaterial: 1
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 1
+          enumOwnerShip: 0
+        - enumMaterial: 7
+          enumOwnerShip: 2
+        - enumMaterial: 20
+          enumOwnerShip: 2
+        - enumMaterial: 9
+          enumOwnerShip: 2
+        - enumMaterial: 0
+          enumOwnerShip: 2
+        - enumMaterial: 8
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 2
+          enumOwnerShip: 2
+    - _name: Candy_2
+      enumBulletsData: 7
+      ownerShip: 2
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 19
+          enumOwnerShip: 0
+        - enumMaterial: 5
+          enumOwnerShip: 2
+        - enumMaterial: 6
+          enumOwnerShip: 2
+        - enumMaterial: 2
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+        - enumMaterial: 13
+          enumOwnerShip: 2
+        - enumMaterial: 12
+          enumOwnerShip: 2
+        - enumMaterial: 17
+          enumOwnerShip: 2
+        - enumMaterial: 20
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 21
+          enumOwnerShip: 0
+        - enumMaterial: 15
+          enumOwnerShip: 2
+        - enumMaterial: 18
+          enumOwnerShip: 2
+        - enumMaterial: 3
+          enumOwnerShip: 2
+        - enumMaterial: 6
+          enumOwnerShip: 2
+        - enumMaterial: 11
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 17
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 6
+          enumOwnerShip: 0
+        - enumMaterial: 21
+          enumOwnerShip: 2
+        - enumMaterial: 3
+          enumOwnerShip: 2
+        - enumMaterial: 4
+          enumOwnerShip: 2
+        - enumMaterial: 17
+          enumOwnerShip: 2
+        - enumMaterial: 5
+          enumOwnerShip: 2
+        - enumMaterial: 7
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 8
+          enumOwnerShip: 2
+    - _name: Candy_4
+      enumBulletsData: 8
+      ownerShip: 2
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 20
+          enumOwnerShip: 0
+        - enumMaterial: 16
+          enumOwnerShip: 2
+        - enumMaterial: 18
+          enumOwnerShip: 2
+        - enumMaterial: 4
+          enumOwnerShip: 2
+        - enumMaterial: 1
+          enumOwnerShip: 2
+        - enumMaterial: 0
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+        - enumMaterial: 17
+          enumOwnerShip: 2
+        - enumMaterial: 3
+          enumOwnerShip: 2
+        - enumMaterial: 8
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 16
+          enumOwnerShip: 0
+        - enumMaterial: 1
+          enumOwnerShip: 2
+        - enumMaterial: 20
+          enumOwnerShip: 2
+        - enumMaterial: 4
+          enumOwnerShip: 2
+        - enumMaterial: 21
+          enumOwnerShip: 2
+        - enumMaterial: 8
+          enumOwnerShip: 2
+        - enumMaterial: 17
+          enumOwnerShip: 2
+        - enumMaterial: 22
+          enumOwnerShip: 2
+        - enumMaterial: 18
+          enumOwnerShip: 2
+        - enumMaterial: 2
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 4
+          enumOwnerShip: 0
+        - enumMaterial: 19
+          enumOwnerShip: 2
+        - enumMaterial: 20
+          enumOwnerShip: 2
+        - enumMaterial: 5
+          enumOwnerShip: 2
+        - enumMaterial: 17
+          enumOwnerShip: 2
+        - enumMaterial: 1
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+        - enumMaterial: 3
+          enumOwnerShip: 2
+        - enumMaterial: 7
+          enumOwnerShip: 2
+    - _name: Hammer
+      enumBulletsData: 9
+      ownerShip: 2
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 13
+          enumOwnerShip: 0
+        - enumMaterial: 20
+          enumOwnerShip: 2
+        - enumMaterial: 5
+          enumOwnerShip: 2
+        - enumMaterial: 21
+          enumOwnerShip: 2
+        - enumMaterial: 4
+          enumOwnerShip: 2
+        - enumMaterial: 0
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+        - enumMaterial: 22
+          enumOwnerShip: 2
+        - enumMaterial: 17
+          enumOwnerShip: 2
+        - enumMaterial: 12
+          enumOwnerShip: 2
+        - enumMaterial: 11
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 21
+          enumOwnerShip: 0
+        - enumMaterial: 17
+          enumOwnerShip: 2
+        - enumMaterial: 13
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+        - enumMaterial: 22
+          enumOwnerShip: 2
+        - enumMaterial: 1
+          enumOwnerShip: 2
+        - enumMaterial: 7
+          enumOwnerShip: 2
+        - enumMaterial: 18
+          enumOwnerShip: 2
+        - enumMaterial: 11
+          enumOwnerShip: 2
+        - enumMaterial: 15
+          enumOwnerShip: 2
+        - enumMaterial: 12
+          enumOwnerShip: 2
+    - _name: Knife
+      enumBulletsData: 10
+      ownerShip: 2
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 18
+          enumOwnerShip: 0
+        - enumMaterial: 0
+          enumOwnerShip: 2
+        - enumMaterial: 16
+          enumOwnerShip: 2
+        - enumMaterial: 13
+          enumOwnerShip: 2
+        - enumMaterial: 7
+          enumOwnerShip: 2
+        - enumMaterial: 15
+          enumOwnerShip: 2
+        - enumMaterial: 1
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+        - enumMaterial: 3
+          enumOwnerShip: 2
+        - enumMaterial: 12
+          enumOwnerShip: 2
+        - enumMaterial: 17
+          enumOwnerShip: 2
+        - enumMaterial: 5
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 14
+          enumOwnerShip: 0
+        - enumMaterial: 18
+          enumOwnerShip: 2
+        - enumMaterial: 9
+          enumOwnerShip: 2
+        - enumMaterial: 16
+          enumOwnerShip: 2
+        - enumMaterial: 15
+          enumOwnerShip: 2
+        - enumMaterial: 2
+          enumOwnerShip: 2
+        - enumMaterial: 3
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 4
+          enumOwnerShip: 2
+        - enumMaterial: 22
+          enumOwnerShip: 2
+        - enumMaterial: 19
+          enumOwnerShip: 2
+        - enumMaterial: 11
+          enumOwnerShip: 2
+    - _name: Uzi
+      enumBulletsData: 11
+      ownerShip: 2
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 9
+          enumOwnerShip: 0
+        - enumMaterial: 13
+          enumOwnerShip: 2
+        - enumMaterial: 7
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 12
+          enumOwnerShip: 2
+        - enumMaterial: 5
+          enumOwnerShip: 2
+        - enumMaterial: 15
+          enumOwnerShip: 2
+        - enumMaterial: 11
+          enumOwnerShip: 2
+        - enumMaterial: 0
+          enumOwnerShip: 2
+        - enumMaterial: 6
+          enumOwnerShip: 2
+        - enumMaterial: 22
+          enumOwnerShip: 2
+        - enumMaterial: 19
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 14
+          enumOwnerShip: 0
+        - enumMaterial: 7
+          enumOwnerShip: 2
+        - enumMaterial: 12
+          enumOwnerShip: 2
+        - enumMaterial: 16
+          enumOwnerShip: 2
+        - enumMaterial: 4
+          enumOwnerShip: 2
+        - enumMaterial: 11
+          enumOwnerShip: 2
+        - enumMaterial: 19
+          enumOwnerShip: 2
+        - enumMaterial: 2
+          enumOwnerShip: 2
+        - enumMaterial: 0
+          enumOwnerShip: 2
+        - enumMaterial: 15
+          enumOwnerShip: 2
+        - enumMaterial: 21
+          enumOwnerShip: 2
+        - enumMaterial: 20
+          enumOwnerShip: 2
+        - enumMaterial: 22
+          enumOwnerShip: 2
+    - _name: Z
+      enumBulletsData: 12
+      ownerShip: 2
+      arrSlots:
+      - arrMaterial:
+        - enumMaterial: 2
+          enumOwnerShip: 0
+        - enumMaterial: 6
+          enumOwnerShip: 2
+        - enumMaterial: 1
+          enumOwnerShip: 2
+        - enumMaterial: 21
+          enumOwnerShip: 2
+        - enumMaterial: 19
+          enumOwnerShip: 2
+        - enumMaterial: 0
+          enumOwnerShip: 2
+        - enumMaterial: 22
+          enumOwnerShip: 2
+        - enumMaterial: 11
+          enumOwnerShip: 2
+        - enumMaterial: 20
+          enumOwnerShip: 2
+        - enumMaterial: 16
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 18
+          enumOwnerShip: 2
+        - enumMaterial: 7
+          enumOwnerShip: 2
+        - enumMaterial: 9
+          enumOwnerShip: 2
+      - arrMaterial:
+        - enumMaterial: 5
+          enumOwnerShip: 0
+        - enumMaterial: 7
+          enumOwnerShip: 2
+        - enumMaterial: 20
+          enumOwnerShip: 2
+        - enumMaterial: 10
+          enumOwnerShip: 2
+        - enumMaterial: 1
+          enumOwnerShip: 2
+        - enumMaterial: 0
+          enumOwnerShip: 2
+        - enumMaterial: 13
+          enumOwnerShip: 2
+        - enumMaterial: 8
+          enumOwnerShip: 2
+        - enumMaterial: 14
+          enumOwnerShip: 2
+        - enumMaterial: 12
+          enumOwnerShip: 2
+        - enumMaterial: 22
+          enumOwnerShip: 2
+        - enumMaterial: 19
+          enumOwnerShip: 2
+        - enumMaterial: 9
+          enumOwnerShip: 2
+        - enumMaterial: 15
+          enumOwnerShip: 2
+    exteriorOwners:
+      skins:
+      - skinData: 0
+        ownerShip: 0
+      - skinData: 1
+        ownerShip: 2
+      - skinData: 2
+        ownerShip: 2
+      - skinData: 3
+        ownerShip: 2
+      - skinData: 4
+        ownerShip: 2
+      - skinData: 5
+        ownerShip: 2
+      - skinData: 6
+        ownerShip: 2
+      - skinData: 7
+        ownerShip: 2
+      - skinData: 8
+        ownerShip: 2
+      - skinData: 9
+        ownerShip: 2
+      - skinData: 10
+        ownerShip: 2
+      - skinData: 11
+        ownerShip: 2
+      - skinData: 12
+        ownerShip: 2
+      - skinData: 13
+        ownerShip: 2
+      - skinData: 14
+        ownerShip: 2
+      - skinData: 15
+        ownerShip: 2
+      - skinData: 16
+        ownerShip: 2
+      - skinData: 17
+        ownerShip: 2
+      - skinData: 18
+        ownerShip: 2
+      - skinData: 19
+        ownerShip: 2
+      - skinData: 20
+        ownerShip: 2
+      - skinData: 21
+        ownerShip: 2
+      - skinData: 22
+        ownerShip: 2
+      pants:
+      - pantData: 0
+        ownerShip: 0
+      - pantData: 1
+        ownerShip: 2
+      - pantData: 2
+        ownerShip: 2
+      - pantData: 3
+        ownerShip: 2
+      - pantData: 4
+        ownerShip: 2
+      - pantData: 5
+        ownerShip: 2
+      - pantData: 6
+        ownerShip: 2
+      - pantData: 7
+        ownerShip: 2
+      - pantData: 8
+        ownerShip: 2
+      - pantData: 9
+        ownerShip: 2
+      - pantData: 10
+        ownerShip: 2
+      - pantData: 11
+        ownerShip: 2
+      - pantData: 12
+        ownerShip: 2
+      - pantData: 13
+        ownerShip: 2
+      - pantData: 14
+        ownerShip: 2
+      - pantData: 15
+        ownerShip: 2
+      - pantData: 16
+        ownerShip: 2
+      - pantData: 17
+        ownerShip: 2
+      - pantData: 18
+        ownerShip: 2
+      - pantData: 19
+        ownerShip: 2
+      - pantData: 20
+        ownerShip: 2
+      - pantData: 21
+        ownerShip: 2
+      - pantData: 22
+        ownerShip: 2
+      - pantData: 23
+        ownerShip: 2
+      - pantData: 24
+        ownerShip: 2
+      - pantData: 25
+        ownerShip: 2
+      - pantData: 26
+        ownerShip: 2
+      - pantData: 27
+        ownerShip: 2
+      - pantData: 28
+        ownerShip: 2
+      - pantData: 29
+        ownerShip: 2
+      - pantData: 30
+        ownerShip: 2
+      - pantData: 31
+        ownerShip: 2

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53934929611dca34da132d02055ee762, type: 3}
+  m_Name: DataGamePlay
+  m_EditorClassIdentifier: 
+  bulletsOriginalData:
+  - nameWeapon: None
+    existOrReturnTime: 0
+    speed: 0
+  - nameWeapon: Arrow
+    existOrReturnTime: 2
+    speed: 0.15
+  - nameWeapon: Axe_0
+    existOrReturnTime: 3
+    speed: 0.1
+  - nameWeapon: Axe_1
+    existOrReturnTime: 3
+    speed: 0.1
+  - nameWeapon: Boomerang
+    existOrReturnTime: 1
+    speed: 0.1
+  - nameWeapon: Candy_0
+    existOrReturnTime: 3
+    speed: 0.1
+  - nameWeapon: Candy_1
+    existOrReturnTime: 3
+    speed: 0.1
+  - nameWeapon: Candy_2
+    existOrReturnTime: 3
+    speed: 0.1
+  - nameWeapon: Candy_4
+    existOrReturnTime: 3
+    speed: 0.1
+  - nameWeapon: Hammer
+    existOrReturnTime: 3
+    speed: 0.1
+  - nameWeapon: Knife
+    existOrReturnTime: 3
+    speed: 0.1
+  - nameWeapon: Uzi
+    existOrReturnTime: 3
+    speed: 0.1
+  - nameWeapon: Z
+    existOrReturnTime: 2
+    speed: 0.05
+  listWeapon:
+  - {fileID: 0}
+  - {fileID: -5802245286137049949, guid: b856d34854ad9214d848fef54544c327, type: 3}
+  - {fileID: -657123071969888730, guid: df34cf6776fffe14ea7835d5c2e040f3, type: 3}
+  - {fileID: -7269335914487706316, guid: 2c73878ead6c28143a92e6ac91d9584e, type: 3}
+  - {fileID: -4061316582179945161, guid: 59489534df5c1144f871499af70ed60f, type: 3}
+  - {fileID: 4922753829729177066, guid: 855e96e3980d67847a93a5b6c9abe4a9, type: 3}
+  - {fileID: -3989228800607758770, guid: 430b28733232cf348b5925bb7a4f2f7e, type: 3}
+  - {fileID: 8262950158749870509, guid: 53857087dc15e564e9e0dfba1df0a81d, type: 3}
+  - {fileID: -3966241698097598748, guid: df0c0aafdde599e419a630b96fc81e82, type: 3}
+  - {fileID: -3312910144888514861, guid: 4e364e2f14c36d54fa65124306c9f18b, type: 3}
+  - {fileID: 8802489602411935920, guid: 2ad8b636bd031ac4db737ee1a1208ffb, type: 3}
+  - {fileID: 2991642350913350249, guid: bef68cb2d695869439e63ddc6e722c4e, type: 3}
+  - {fileID: 4208905682078607882, guid: 7029b70d42d33fa46b133d98b55f4084, type: 3}

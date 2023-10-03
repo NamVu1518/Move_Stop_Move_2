@@ -1,0 +1,1354 @@
+{
+    "arrWeaponOwners": [
+        {
+            "_name": "Arrow",
+            "enumBulletsData": 1,
+            "ownerShip": 1,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 3,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 18,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 6,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 21,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 5,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_name": "Axe_0",
+            "enumBulletsData": 2,
+            "ownerShip": 1,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 19,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 17,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 19,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 0,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_name": "Axe_1",
+            "enumBulletsData": 3,
+            "ownerShip": 0,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 11,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 3,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_name": "Boomerang",
+            "enumBulletsData": 4,
+            "ownerShip": 2,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 8,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 17,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 11,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_name": "Candy_0",
+            "enumBulletsData": 5,
+            "ownerShip": 2,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 0,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 21,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 18,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 19,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 8,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 5,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 3,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 15,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 8,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 18,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 2,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 11,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_name": "Candy_1",
+            "enumBulletsData": 6,
+            "ownerShip": 2,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 18,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 7,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 19,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 13,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 7,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 9,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 0,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 8,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 2,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_name": "Candy_2",
+            "enumBulletsData": 7,
+            "ownerShip": 2,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 19,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 5,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 6,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 2,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 13,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 17,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 21,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 15,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 18,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 3,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 6,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 11,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 17,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 6,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 21,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 3,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 17,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 5,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 7,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 8,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_name": "Candy_4",
+            "enumBulletsData": 8,
+            "ownerShip": 2,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 18,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 0,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 17,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 3,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 8,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 21,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 8,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 17,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 18,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 2,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 19,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 5,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 17,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 3,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 7,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_name": "Hammer",
+            "enumBulletsData": 9,
+            "ownerShip": 2,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 13,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 5,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 21,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 0,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 17,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 11,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 21,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 17,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 13,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 7,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 18,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 11,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 15,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_name": "Knife",
+            "enumBulletsData": 10,
+            "ownerShip": 2,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 18,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 0,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 13,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 7,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 15,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 3,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 17,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 5,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 18,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 9,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 15,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 2,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 3,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 19,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 11,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_name": "Uzi",
+            "enumBulletsData": 11,
+            "ownerShip": 2,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 9,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 13,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 7,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 5,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 15,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 11,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 0,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 6,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 19,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 7,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 4,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 11,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 19,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 2,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 0,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 15,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 21,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_name": "Z",
+            "enumBulletsData": 12,
+            "ownerShip": 2,
+            "arrSlots": [
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 2,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 6,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 21,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 19,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 0,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 11,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 16,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 18,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 7,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 9,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                },
+                {
+                    "arrMaterial": [
+                        {
+                            "enumMaterial": 5,
+                            "enumOwnerShip": 0
+                        },
+                        {
+                            "enumMaterial": 7,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 20,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 10,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 1,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 0,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 13,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 8,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 14,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 12,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 22,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 19,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 9,
+                            "enumOwnerShip": 2
+                        },
+                        {
+                            "enumMaterial": 15,
+                            "enumOwnerShip": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "exteriorOwners": {
+        "skins": [
+            {
+                "skinData": 0,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 1,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 2,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 3,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 4,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 5,
+                "ownerShip": 0
+            },
+            {
+                "skinData": 6,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 7,
+                "ownerShip": 2
+            },
+            {
+                "skinData": 8,
+                "ownerShip": 2
+            },
+            {
+                "skinData": 9,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 10,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 11,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 12,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 13,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 14,
+                "ownerShip": 2
+            },
+            {
+                "skinData": 15,
+                "ownerShip": 2
+            },
+            {
+                "skinData": 16,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 17,
+                "ownerShip": 2
+            },
+            {
+                "skinData": 18,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 19,
+                "ownerShip": 2
+            },
+            {
+                "skinData": 20,
+                "ownerShip": 1
+            },
+            {
+                "skinData": 21,
+                "ownerShip": 2
+            },
+            {
+                "skinData": 22,
+                "ownerShip": 2
+            }
+        ],
+        "pants": [
+            {
+                "pantData": 0,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 1,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 2,
+                "ownerShip": 0
+            },
+            {
+                "pantData": 3,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 4,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 5,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 6,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 7,
+                "ownerShip": 2
+            },
+            {
+                "pantData": 8,
+                "ownerShip": 2
+            },
+            {
+                "pantData": 9,
+                "ownerShip": 2
+            },
+            {
+                "pantData": 10,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 11,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 12,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 13,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 14,
+                "ownerShip": 2
+            },
+            {
+                "pantData": 15,
+                "ownerShip": 2
+            },
+            {
+                "pantData": 16,
+                "ownerShip": 2
+            },
+            {
+                "pantData": 17,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 18,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 19,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 20,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 21,
+                "ownerShip": 2
+            },
+            {
+                "pantData": 22,
+                "ownerShip": 2
+            },
+            {
+                "pantData": 23,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 24,
+                "ownerShip": 2
+            },
+            {
+                "pantData": 25,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 26,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 27,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 28,
+                "ownerShip": 2
+            },
+            {
+                "pantData": 29,
+                "ownerShip": 1
+            },
+            {
+                "pantData": 30,
+                "ownerShip": 2
+            },
+            {
+                "pantData": 31,
+                "ownerShip": 2
+            }
+        ]
+    }
+}
