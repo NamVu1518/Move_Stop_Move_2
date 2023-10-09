@@ -15,7 +15,7 @@ public class PatrolState : IStateEnemy<Enemy>
     {
         clock += Time.deltaTime;
 
-        t.ChangeAnim("IsRun");
+        t.ChangeAnim(Constant.ANI_RUN);
 
         t.Move();
 

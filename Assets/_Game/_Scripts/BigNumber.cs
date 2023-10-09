@@ -22,7 +22,7 @@ public static class BigNumber
 
         return Abbreviate(num);
     }
-
+    
     public static string Abbreviate(string stNum, bool dot)
     {
         int num;
@@ -54,12 +54,16 @@ public static class BigNumber
             b = b / 100000;
             stNum = a.ToString() + (b == 0 ? "" : (dot == true ? "." : ",") + b.ToString()) + " M";
         }
-        else if (num >= 10000)
+        else if (num >= 1000)
         {
             int a = num / 1000;
             int b = num % 1000;
             b = b / 100;
             stNum = a.ToString() + (b == 0 ? "" : (dot == true ? "." : ",") + b.ToString()) + " K";
+        }
+        else
+        {
+            stNum = num.ToString();
         }
 
         return stNum;

@@ -83,7 +83,6 @@ public class UI_ShopPageSkin : UICanvas
     {
         btnSlotSkinChoosing.ChangeMater(DataManager.Ins.GetMaterialEquippedInThisSlot(btnSlotSkinChoosing.Type).color);
         ChangeMaterialCharaterShowing(btnSlotSkinChoosing);
-        Debug.Log(player != null);
 
         player.SetSkinsMaterial();
     }

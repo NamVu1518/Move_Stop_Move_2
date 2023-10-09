@@ -11,7 +11,7 @@ public class IdleState : IStateEnemy<Enemy>
 
     public void OnExcute(Enemy t)
     {
-        t.ChangeAnim("IsIdle");
+        t.ChangeAnim(Constant.ANI_IDLE);
     }
 
     public void OnOut(Enemy t)

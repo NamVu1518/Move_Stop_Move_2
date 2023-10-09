@@ -9,7 +9,7 @@ public class UI_MainMenu : UICanvas
 
     private void OnEnable()
     {
-        SetTextCoin(DataManager.Ins.DataPlayer.Coin.ToString());
+        SetTextCoin(BigNumber.Abbreviate(DataManager.Ins.DataPlayer.Coin.ToString()));
     }
 
     public void SetTextCoin(string coin) 

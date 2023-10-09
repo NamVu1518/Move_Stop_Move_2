@@ -106,8 +106,6 @@ public class GameManager : Singleton<GameManager>
         DataManager.Ins.DataPlayer.Coin += player.Kill * 50 * 5;
         DataManager.Ins.SaveDataPlayer();
 
-        Debug.Log(DataManager.Ins.DataPlayer.Coin);
-
         UIManager.Ins.CloseUI<UI_GameMenu>();
         UIManager.Ins.OpenUI<UI_WinMenu>();
         ChangeState(GameState.Finish);

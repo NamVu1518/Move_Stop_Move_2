@@ -31,11 +31,11 @@ public class AttackState : IStateEnemy<Enemy>
         }
         else if (clock >= 0.5f)
         {
-            t.ChangeAnim("IsAttack");
+            t.ChangeAnim(Constant.ANI_ATTACK);
         }
         else
         {
-            t.ChangeAnim("IsIdle");
+            t.ChangeAnim(Constant.ANI_IDLE);
         }
     }
 

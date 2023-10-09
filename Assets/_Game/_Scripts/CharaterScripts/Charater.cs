@@ -110,7 +110,7 @@ public class Charater : GameUnit
 
     protected void Dead() 
     {
-        ChangeAnim("IsDead");
+        ChangeAnim(Constant.ANI_DEAD);
         this.StartCoroutine(IEDelay(this.OnDespawn, 1f));
     }
 

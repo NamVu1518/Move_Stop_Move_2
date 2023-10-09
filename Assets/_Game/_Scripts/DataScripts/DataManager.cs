@@ -77,14 +77,14 @@ public class DataManager : Singleton<DataManager>
 
     public void SaveDataDynamic()
     {
-        string path = Path.Combine(Application.dataPath, "_Game/_Data/DataAssetPlayer.txt");
+        string path = Path.Combine(Application.persistentDataPath, "DataAssetPlayer.txt");
 
         WorkWithFile.WriteJSON<DataDynamic>(dataDynamic, path);
     }
 
     public void LoadDataDynamic()
     {
-        string path = Path.Combine(Application.dataPath, "_Game/_Data/DataAssetPlayer.txt");
+        string path = Path.Combine(Application.persistentDataPath, "DataAssetPlayer.txt");
 
         if (File.Exists(path) == false)
         {

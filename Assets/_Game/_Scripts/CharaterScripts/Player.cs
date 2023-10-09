@@ -29,7 +29,7 @@ public class Player : Charater
         }
         else
         {
-            ChangeAnim("IsIdle");
+            ChangeAnim(Constant.ANI_IDLE);
         }
     }
 
@@ -41,7 +41,7 @@ public class Player : Charater
         {
             if (Joystick.GetDirect().sqrMagnitude >= 0.1f)
             {
-                ChangeAnim("IsRun");
+                ChangeAnim(Constant.ANI_RUN);
 
                 tf.rotation = Quaternion.LookRotation(Joystick.GetDirect().normalized);
                 isAcceptAttack = true;
@@ -50,7 +50,7 @@ public class Player : Charater
             }
             else
             {
-                ChangeAnim("IsIdle");
+                ChangeAnim(Constant.ANI_IDLE);
 
                 rb.velocity = Vector3.zero;
             }
@@ -65,7 +65,7 @@ public class Player : Charater
 
             if (rb.velocity.sqrMagnitude < 0.1f && listCharacterTarget.Count > 0 && isAcceptAttack == true)
             {
-                ChangeAnim("IsAttack");
+                ChangeAnim(Constant.ANI_ATTACK);
 
                 Vector3 direct = new Vector3(listCharacterTarget[0].tf.position.x, this.tf.position.y, listCharacterTarget[0].tf.position.z);
                 tf.LookAt(direct, Vector3.up);

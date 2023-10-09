@@ -15,8 +15,6 @@ public class Constant
     public const int NUM_OF_ENEMY_SPAWN = 19;
     public const int NUM_OF_CHARATER_IN_MAP = NUM_OF_ENEMY_SPAWN + 1;
 
-    public const string ANIM_ATTACK = "charater";
-
     public const string TAG_CHARACTER = "charater";
     public const string TAG_BUILDING = "building";
     public const string TAG_WARZONE = "warzone";
@@ -26,4 +24,10 @@ public class Constant
     public const string KEY_NAME = "name";
     public const string KEY_COIN = "coin";
     public const string KEY_LEVEL = "level";
+
+    public const string ANI_IDLE = "IsIdle";
+    public const string ANI_RUN = "IsRun";
+    public const string ANI_ATTACK = "IsAttack";
+    public const string ANI_DEAD = "IsDead";
+
 }

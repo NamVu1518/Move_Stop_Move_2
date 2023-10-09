@@ -30,10 +30,14 @@ public class Enemy : Charater
             {
                 currentState?.OnExcute(this);
             }
+            else
+            {
+                agent.SetDestination(tf.position);
+            }
         }
         else
         {
-            ChangeAnim("IsIdle");
+            ChangeAnim(Constant.ANI_IDLE);
 
             agent.SetDestination(tf.position);
         }
